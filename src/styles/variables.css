@@ -1,0 +1,11 @@
+:root {
+  --bg: #0a0a0a;
+  --text: #ffffff;
+  --text-muted: #a0a0a0;
+
+  --font-main: 'Inter', sans-serif;
+
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+}

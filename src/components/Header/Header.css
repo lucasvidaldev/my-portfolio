@@ -1,0 +1,24 @@
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 24px clamp(16px, 5vw, 48px);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  z-index: 10;
+}
+
+.header__logo {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 16px;
+  }
+}
