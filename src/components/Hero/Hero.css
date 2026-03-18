@@ -113,5 +113,11 @@
     flex-direction: column;
     gap: 8px;
     align-items: flex-start;
+    padding: 0px 24px;
+  }
+  .hero__track span::after {
+    content: "•";
+    margin:70px;
+    opacity: 0.6;
   }
 }
