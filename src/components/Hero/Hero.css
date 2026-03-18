@@ -41,7 +41,7 @@
 /* 🔥 texto */
 .hero__track span {
   font-size: clamp(64px, 15vw, 340px);
-  font-weight: 600;
+  font-weight: 500;
   color: white;
 
   mix-blend-mode: difference;
