@@ -1,7 +1,10 @@
-import HeroLayout from './sections/HeroLayout';
+import { Header, Hero } from './features/home';
 
 function App() {
-  return <HeroLayout />;
+  return <>
+    <Header />
+    <Hero />
+  </>;
 }
 
 export default App;

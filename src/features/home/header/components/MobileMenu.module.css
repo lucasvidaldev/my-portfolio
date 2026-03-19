@@ -1,0 +1,72 @@
+/* BOTÃO HAMBURGER */
+.navToggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 30;
+}
+
+.navToggle span {
+  width: 22px;
+  height: 3px;
+  background: white;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+/* ANIMAÇÃO X */
+.navToggleActive span:nth-child(1) {
+  transform: rotate(45deg) translateY(11px);
+}
+
+.navToggleActive span:nth-child(2) {
+  opacity: 0;
+}
+
+.navToggleActive span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-11px);
+}
+
+/* OVERLAY (DESKTOP = NÃO EXISTE) */
+.navOverlay {
+  display: none;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  /* BOTÃO APARECE */
+  .navToggle {
+    display: flex;
+    position: fixed;
+    top: 24px;
+    right: 24px;
+  }
+
+  /* OVERLAY BASE */
+  .navOverlay {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    background: black;
+
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 40px;
+    z-index: 20;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s;
+  }
+
+  /* OVERLAY ATIVO */
+  .navOverlayActive {
+    opacity: 1;
+    pointer-events: all;
+  }
+}

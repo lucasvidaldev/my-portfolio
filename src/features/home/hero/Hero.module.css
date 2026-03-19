@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   min-height: 100dvh;
-  background: url('../../assets/images/bg-hero.jpg') center/cover no-repeat;
+  background: url('../../../assets/images/background/bg-hero.jpg') center/cover no-repeat;
   overflow: hidden;
   isolation: isolate;
 }
@@ -15,7 +15,7 @@
 }
 
 /* 🔥 container */
-.hero__title {
+.heroTitle {
   position: absolute;
   top: 50%;
   left: 0; /* 🔥 muda isso */
@@ -31,7 +31,7 @@
 }
 
 /* 🔥 track */
-.hero__track {
+.heroTrack {
   display: flex;
   flex-direction: row; /* 🔥 horizontal */
   gap: 80px; /* 🔥 espaçamento premium */
@@ -39,7 +39,7 @@
 }
 
 /* 🔥 texto */
-.hero__track span {
+.heroTrack span {
   font-size: clamp(64px, 15vw, 340px);
   font-weight: 500;
   color: white;
@@ -48,14 +48,14 @@
 
   white-space: nowrap; /* 🔥 MUITO importante */
 }
-.hero__track span::after {
+.heroTrack span::after {
   content: "•";
   margin:140px;
   opacity: 0.6;
 }
 
 /* 🔥 FADE REAL (igual site) */
-.hero__title::after {
+.heroTitle::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -74,7 +74,7 @@
 
   pointer-events: none;
 }
-.hero__footer {
+.heroFooter {
   position: absolute;
   bottom: 24px; width: 100%;
   padding: 0 48px; 
@@ -84,13 +84,13 @@
   font-size: 14px; 
   color: var(--text-muted); 
 }
-.hero__footer__dev {
+.heroFooterDev{
   text-transform: capitalize;
   font-size: 48px; 
   color: #FFFFFF;
 }
 @media (max-width: 768px) {
-  .hero__title::after {
+  .heroTitle::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -109,13 +109,13 @@
 
   pointer-events: none;
 }
-  .hero__footer {
+  .heroFooter {
     flex-direction: column;
     gap: 8px;
     align-items: flex-start;
     padding: 0px 24px;
   }
-  .hero__track span::after {
+  .heroTrack span::after {
     content: "•";
     margin:70px;
     opacity: 0.6;

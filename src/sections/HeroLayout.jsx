@@ -1,11 +1,11 @@
-import Header from '../components/Header/Header';
-import Hero from '../components/Hero/Hero';
+import { Header, Hero } from '../components';
 
-function HeroLayout() {
+function HeroLayout({ children }) {
   return (
     <>
       <Header />
       <Hero />
+      {children}
     </>
   );
 }

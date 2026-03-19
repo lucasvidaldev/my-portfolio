@@ -6,12 +6,10 @@
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
+  align-content: center;
   z-index: 10;
 }
-
-.header__logo {
+.headerLogo {
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
