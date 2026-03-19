@@ -69,4 +69,14 @@
     opacity: 1;
     pointer-events: all;
   }
+  .mobileMenuFooter{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  }
+  .mobileMenuFooterLink{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  }
 }

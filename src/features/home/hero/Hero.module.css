@@ -83,6 +83,19 @@
   align-items: baseline;
   font-size: 14px; 
   color: var(--text-muted); 
+  z-index: 10;
+}
+.heroFooter div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+.heroFooterLink{
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .heroFooterDev{
   text-transform: capitalize;
@@ -109,15 +122,15 @@
 
   pointer-events: none;
 }
-  .heroFooter {
-    flex-direction: column;
-    gap: 8px;
-    align-items: flex-start;
-    padding: 0px 24px;
-  }
   .heroTrack span::after {
     content: "•";
     margin:70px;
     opacity: 0.6;
+  }
+  .heroFooter {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 24px;
+    gap: 8px;
   }
 }

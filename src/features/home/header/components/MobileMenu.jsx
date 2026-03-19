@@ -16,11 +16,21 @@ function MobileMenu() {
         <span></span>
       </button>
 
-      <div className={`${styles.navOverlay} ${isOpen ? styles.navOverlayActive : ''}`}>
+      <div
+        className={`${styles.navOverlay} ${isOpen ? styles.navOverlayActive : ''}`}
+      >
         <NavMenu isMobile onClickLink={() => setIsOpen(false)} />
 
-        <div className={styles.navFooter}>
-          <span>Junior Developer</span>
+        <div className={`${styles.mobileMenuFooter}`}>
+          <span>FrontEnd Developer</span>
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${styles.mobileMenuFooterLink}`}
+          >
+            Linkedin
+          </a>
         </div>
       </div>
     </nav>
