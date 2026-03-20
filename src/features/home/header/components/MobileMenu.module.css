@@ -78,5 +78,9 @@
   color: white;
   font-size: 18px;
   text-decoration: none;
+  width: fit-content;
   }
+  .mobileMenuFooterLink:hover{
+  color: #A7A7A7;
+}
 }

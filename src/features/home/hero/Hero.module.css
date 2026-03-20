@@ -96,7 +96,12 @@
   color: inherit;
   text-decoration: none;
   text-transform: uppercase;
+  width: fit-content;
 }
+.heroFooterLink:hover{
+  color: #FFFFFF;
+}
+
 .heroFooterDev{
   text-transform: capitalize;
   font-size: 48px; 
@@ -132,5 +137,8 @@
     align-items: flex-start;
     padding: 0px 24px;
     gap: 8px;
+  }
+  .heroFooterDev {
+    font-size: 30px;
   }
 }

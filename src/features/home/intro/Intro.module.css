@@ -4,7 +4,7 @@
 .introContainer{
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 20px;
 }
 .introText{
   display: flex;

@@ -1,6 +1,6 @@
-.title{
+.subTitle{
   text-transform: none;
-  font: 500 4.5rem/0.87 "Inter", sans-serif;
+  font: 500 2.5rem/0.87 "Inter", sans-serif;
   text-align: start;
   color: #FFFFFF;
   max-width: 24ch;
@@ -8,11 +8,6 @@
 .line{
   display: block;
 }
-.titleSpan{
+.subTitleSpan{
   color: #00B7B7;
-}
-@media(max-width:750px){
-  .title{
-    font-size: 3rem;
-  }
 }
