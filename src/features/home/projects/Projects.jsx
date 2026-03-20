@@ -1,4 +1,4 @@
-import Title from '../../../components/title/Title';
+import Title from '../../../components/title/Title.jsx';
 import Paragraph from '../../../components/paragraph/Paragraph.jsx';
 import Tag from '../../../components/tag/Tag.jsx';
 import style from './Projects.module.css';
