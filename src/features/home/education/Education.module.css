@@ -1,0 +1,107 @@
+/* SECTION */
+.sectionBg {
+  background: #030303;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px 10px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* CARD BASE */
+.card {
+  position: relative; /* necessário pro ícone */
+
+  border-radius: 20px;
+  padding: 40px;
+  min-height: 620px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* ÍCONE */
+.cardIcon {
+  position: absolute;
+  top: 34px;
+  left: 34px;
+
+  width: 65px;
+  height: auto;
+  opacity: 0.9;
+}
+
+/* CONTEÚDO */
+.cardContent {
+  margin-top: auto;
+  padding-top: 80px; /* evita conflito com ícone */
+}
+
+/* VARIAÇÕES */
+
+.primary {
+  background: #1db4b0;
+  color: #0f0f0f;
+}
+
+.light {
+  background: #e5e5e5;
+  color: #0f0f0f;
+}
+
+.dark {
+  background: #0f0f0f;
+  color: #ffffff;
+  border: 1px solid #2a2a2a;
+}
+
+/* TEXTO */
+
+.card h2 {
+  font: 600 40px/0.9'Inter', sans-serif;
+  margin-bottom: 16px;
+}
+
+.card p {
+  font-size: 16px;
+  color: inherit;
+  max-width: 300px;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 1090px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    min-height: 300px;
+  }
+  .cardIcon {
+    width: 50px;
+    top: 20px;
+    left: 20px;
+  }
+  .card h2{
+    font-size: 28px;
+  }
+  .card p{
+    max-width: 100%;
+  }
+}
