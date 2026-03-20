@@ -2,7 +2,7 @@ import { useState } from 'react';
 import NavMenu from './NavMenu';
 import styles from './MobileMenu.module.css';
 
-function MobileMenu() {
+export default function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -36,5 +36,3 @@ function MobileMenu() {
     </nav>
   );
 }
-
-export default MobileMenu;

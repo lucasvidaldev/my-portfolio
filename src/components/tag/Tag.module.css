@@ -1,0 +1,14 @@
+.tag{
+  color: #00B7B7;
+  font: 500 12px/16px 'Inter', sans-serif;
+  text-transform: uppercase;
+}
+.tag::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 1px;
+  background: currentColor;
+  margin-right: 8px;
+  vertical-align: middle;
+}

@@ -2,10 +2,10 @@ import styles from './Header.module.css';
 import NavMenu from './components/NavMenu.jsx';
 import MobileMenu from './components/MobileMenu.jsx';
 
-function Header() {
+export default function Header() {
   return (
-    <header className={styles.header}>
-      <h1 className={styles.headerLogo}>lucas gonçalves</h1>
+    <header className={`${styles.header}`}>
+      <span className={`${styles.headerLogo}`}>lucas gonçalves</span>
       <nav>
         <NavMenu />
         <MobileMenu />
@@ -13,5 +13,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

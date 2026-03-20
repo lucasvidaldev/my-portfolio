@@ -1,6 +1,6 @@
 import styles from './NavMenu.module.css';
 
-function NavMenu({ isMobile = false, onClickLink }) {
+export default function NavMenu({ isMobile = false, onClickLink }) {
   const links = [
   { label: "serviços", href: "#servicos" },
   { label: "trabalhos", href: "#trabalhos" },
@@ -25,5 +25,3 @@ function NavMenu({ isMobile = false, onClickLink }) {
     </ul>
   );
 }
-
-export default NavMenu;

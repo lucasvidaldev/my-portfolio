@@ -1,12 +1,12 @@
-.projectBg{
+.introBg{
   background: #030303;
 }
-.projectContainer{
+.introContainer{
   display: flex;
   flex-direction: column;
   gap: 60px;
 }
-.projectText{
+.introText{
   display: flex;
   flex-direction: column;
   gap: 20px;
