@@ -1,0 +1,101 @@
+/* SECTION */
+.principlesBg{
+  background: #030303;
+}
+.principles {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* HEADER */
+
+/* GRID */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* CARD */
+
+.card {
+  position: relative;
+
+  background: #111;
+  border-radius: 20px;
+  padding: 40px;
+
+  min-height: 260px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border: 1px solid #1f1f1f;
+
+  transition: 0.3s;
+}
+
+/* NÚMERO GRANDE (fundo) */
+
+.number {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+
+  font-size: 120px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.06);
+}
+
+/* TEXTO */
+
+.card h2 {
+  font-size: 28px;
+  max-width: 300px;
+}
+
+.card p {
+  font-size: 14px;
+  opacity: 0.7;
+  max-width: 360px;
+}
+
+/* LINHA */
+
+.line {
+  width: 40px;
+  height: 2px;
+  background: #1db4b0;
+}
+
+/* HOVER */
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #2a2a2a;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .number {
+    font-size: 80px;
+  }
+}
