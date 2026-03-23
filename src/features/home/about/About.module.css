@@ -1,0 +1,108 @@
+.aboutBg{
+  background: #030303;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+/* LEFT */
+.aboutDescription{
+  display: flex;
+  flex-direction: column;
+  gap:  30px;
+}
+.aboutMedia {
+  border-radius: 20px;
+}
+
+
+/* RIGHT */
+
+.aboutInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* INFO LIST */
+
+.infoList {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.infoItem {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  border-bottom: 1px solid #2a2a2a;
+  padding-bottom: 16px;
+}
+
+.label {
+  font-size: 10px;
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+
+.text{
+  text-align: left;
+  font-size: 14px;
+}
+
+/* TAGS */
+
+.tagsBlock {
+  margin-top: 40px;
+}
+
+.tagsTitle {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.tags {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tagsList {
+  border: 1px solid #1db4b0;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+/* ========================= */
+/* 📱 RESPONSIVO */
+/* ========================= */
+
+@media (max-width: 900px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+  .aboutInfo {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tags {
+    gap: 8px;
+  }
+
+  .tagsList {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}

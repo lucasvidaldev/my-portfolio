@@ -1,4 +1,9 @@
 .paragraph{
-  font: 400 1rem/1.2 "Inter", sans-serif;
+  font: 400 0.9rem/1.2 "Inter", sans-serif;
   max-width: 70ch;
+}
+@media (max-width: 765px) {
+  .paragraph{
+    max-width: max-content;
+  }
 }

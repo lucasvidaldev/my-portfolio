@@ -1,4 +1,4 @@
-import { Education, Header, Hero, Intro, Projects } from './features/home';
+import { About, Education, Header, Hero, Intro, Projects } from './features/home';
 import'../src/styles/global.css';
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <Intro />
     <Projects />
     <Education />
+    <About />
   </>;
 }
 
