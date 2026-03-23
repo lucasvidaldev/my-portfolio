@@ -1,4 +1,4 @@
-import { About, Education, Header, Hero, Intro, Principles, Projects } from './features/home';
+import { About, Contact, Education, Header, Hero, Intro, Principles, Projects } from './features/home';
 import'../src/styles/global.css';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
     <Education />
     <About />
     <Principles />
+    <Contact />
   </>;
 }
 
