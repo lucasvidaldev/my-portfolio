@@ -1,12 +1,15 @@
 import { useState, useEffect } from 'react';
-import styles from './ProjectNav.module.css';
+import styles from './ProjectsNav.module.css';
 import Tag from '../../../../components/tag/Tag.jsx';
 
-export default function ProjectNav({ projects }) {
-  const [active, setActive] = useState(projects?.[0]?.id);
+export default function ProjectsNav({ projects }) {
+  const [active, setActive] = useState(null);
+  const [isClicking, setIsClicking] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
+      if (isClicking) return;
+
       const middle = window.innerHeight / 2;
 
       projects.forEach((project) => {
@@ -23,17 +26,25 @@ export default function ProjectNav({ projects }) {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [projects]);
+  }, [projects, isClicking]);
 
   return (
     <nav className={styles.nav}>
       <Tag text="principais trabalhos" />
-      {projects.map((project) => (
+
+      {projects?.map((project) => (
         <a
           key={project.id}
           href={`#${project.id}`}
-          onClick={() => setActive(project.id)} // 👈 IMPORTANTE
           className={active === project.id ? styles.active : ''}
+          onClick={() => {
+            setActive(project.id);
+            setIsClicking(true);
+
+            setTimeout(() => {
+              setIsClicking(false);
+            }, 800);
+          }}
         >
           {project.id}
         </a>

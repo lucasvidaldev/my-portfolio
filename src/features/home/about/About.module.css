@@ -1,5 +1,5 @@
 .aboutBg{
-  background: #030303;
+  background: var(--bg);
 }
 .about{
   display: flex;

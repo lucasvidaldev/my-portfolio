@@ -1,5 +1,5 @@
 .introBg{
-  background: #030303;
+  background: var(--bg);
 }
 .introContainer{
   display: flex;

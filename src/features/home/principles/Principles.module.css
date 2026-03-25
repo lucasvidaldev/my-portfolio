@@ -1,6 +1,6 @@
 /* SECTION */
 .principlesBg{
-  background: #030303;
+  background: var(--bg);
 }
 .principles {
   display: flex;

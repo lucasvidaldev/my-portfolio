@@ -29,11 +29,11 @@ img{
 }
 .container{
   box-sizing: border-box;
-  padding: 100px 10px;
+  padding: 100px 30px;
   margin: 0 auto;
 }
 @media(max-width:1000px){
   .container{
-    padding: 75px 10px;
+    padding: 75px 20px;
   }
 }

@@ -1,13 +1,12 @@
 .projectBg{
-  background: #030303;
+  background: var(--bg);
 }
 .project{
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: clamp(40px, 8vw, 100px);
 }
-.projectContainer{
+.projectIntro{
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }

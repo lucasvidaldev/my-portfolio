@@ -1,4 +1,5 @@
-.projectContainer {
+/* PROJECTS CARD */
+.projectIntro {
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -18,18 +19,18 @@
 }
 
 /* IMAGEM (lado esquerdo) */
-.projectImage {
+.projectImage img{
   position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.projectImage img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* ESSENCIAL */
   border-radius: 0; /* remove cantos arredondados */
   transform: none; /* opcional: remove rotação */
+  transition: transform 0.3s ease ;
+}
+
+.projectImage:hover {
+  transform: scale(1.05);
 }
 
 /* CONTEÚDO (lado direito) */
@@ -38,20 +39,20 @@
   flex-direction: column;
   justify-content: center;
   gap: 24px;
-  padding: 60px;
+  padding: clamp(20px, 5vw, 60px);
 }
 
 /* EYEBROW */
 .eyebrow {
   font-size: 12px;
-  color: #a1a1a1;
+  color: #b3b3b3;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 /* TÍTULO */
 .cardTitle {
-  font-size: 40px;
+  font-size: clamp(24px, 3vw, 40px);
   font-weight: 600;
   color: #ffffff;
   line-height: 1.2;
@@ -111,7 +112,7 @@
 
 .projectButtons a:hover {
   border-color: #7c3aed;
-  color: #7c3aed;
+  background: rgba(124, 58, 237, 0.1);
 }
 @media (max-width: 1024px) {
   .project {

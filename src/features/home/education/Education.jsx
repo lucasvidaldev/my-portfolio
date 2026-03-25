@@ -5,6 +5,7 @@ import HoracioLogo from '../../../assets/icons/hml.svg';
 
 import Title from '../../../components/title/Title.jsx';
 import Paragraph from '../../../components/paragraph/Paragraph.jsx';
+import Tag from '../../../components/tag/Tag.jsx';
 
 export default function Education() {
   const items = [
@@ -32,6 +33,7 @@ export default function Education() {
     <section className={styles.sectionBg}>
       <div className="container">
         <div className={styles.section}>
+          <Tag text="formação acadêmica" />
           <Title line="Minha jornada educacional" highlight="educacional" />
           <Paragraph text="Minha jornada educacional é marcada por uma busca constante por conhecimento e aprimoramento. Desde os primeiros passos na educação formal até as experiências mais recentes, cada etapa contribuiu para moldar minha visão e habilidades." />
           <div className={styles.grid}>

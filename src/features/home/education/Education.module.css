@@ -1,6 +1,6 @@
 /* SECTION */
 .sectionBg {
-  background: #030303;
+  background: var(--bg);
 }
 .section {
   display: flex;
