@@ -7,13 +7,13 @@ import style from './Projects.module.css';
 
 import ProjectsCards from './components/ProjectsCard.jsx';
 import ProjectNav from './components/ProjectsNav.jsx';
-import { projects } from './components/projectsData.js';
+import { projects } from './components/data/projectsData.js';
 
 export default function Projects() {
   return (
     <section className={style.projectBg}>
       <div className="container">
-        <div className={style.project}>
+        <div className={style.projectSection}>
           <div className={style.projectIntro}>
             <Tag text="melhores trabalhos" />
             <Title

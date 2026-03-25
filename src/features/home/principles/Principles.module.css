@@ -2,7 +2,7 @@
 .principlesBg{
   background: var(--bg);
 }
-.principles {
+.principlesSection{
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -12,7 +12,7 @@
 
 /* GRID */
 
-.grid {
+.principlesGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
@@ -20,7 +20,7 @@
 
 /* CARD */
 
-.card {
+.principlesCard {
   position: relative;
 
   background: #111;
@@ -40,7 +40,7 @@
 
 /* NÚMERO GRANDE (fundo) */
 
-.number {
+.principlesNumber {
   position: absolute;
   top: 20px;
   right: 24px;
@@ -52,12 +52,12 @@
 
 /* TEXTO */
 
-.card h2 {
+.principlesCard h2 {
   font-size: 28px;
   max-width: 300px;
 }
 
-.card p {
+.principlesCard p {
   font-size: 14px;
   opacity: 0.7;
   max-width: 360px;
@@ -73,7 +73,7 @@
 
 /* HOVER */
 
-.card:hover {
+.principlesCard:hover {
   transform: translateY(-6px);
   border-color: #2a2a2a;
 }
@@ -81,7 +81,7 @@
 /* RESPONSIVO */
 
 @media (max-width: 900px) {
-  .grid {
+  .principlesGrid {
     grid-template-columns: 1fr;
   }
 
@@ -95,7 +95,7 @@
     font-size: 32px;
   }
 
-  .number {
+  .principlesNumber {
     font-size: 80px;
   }
 }

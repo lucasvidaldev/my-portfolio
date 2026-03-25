@@ -1,8 +1,8 @@
 /* SECTION */
-.sectionBg {
+.educationSectionBg {
   background: var(--bg);
 }
-.section {
+.educationSection {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -10,14 +10,14 @@
 }
 
 /* GRID */
-.grid {
+.educationGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
 /* CARD BASE */
-.card {
+.educationCard {
   position: relative; /* necessário pro ícone */
 
   border-radius: 20px;
@@ -31,12 +31,12 @@
 
   transition: 0.3s;
 }
-.card:hover {
+.educationCard:hover {
   transform: translateY(-10px);
 }
 
 /* ÍCONE */
-.cardIcon {
+.educationCardIcon {
   position: absolute;
   top: 34px;
   left: 34px;
@@ -47,24 +47,24 @@
 }
 
 /* CONTEÚDO */
-.cardContent {
+.educationCardContent {
   margin-top: auto;
   padding-top: 80px; /* evita conflito com ícone */
 }
 
 /* VARIAÇÕES */
 
-.primary {
+.educationPrimary {
   background: #1db4b0;
   color: #0f0f0f;
 }
 
-.light {
+.educationLight {
   background: #e5e5e5;
   color: #0f0f0f;
 }
 
-.dark {
+.educationDark {
   background: #0f0f0f;
   color: #ffffff;
   border: 1px solid #2a2a2a;
@@ -72,12 +72,12 @@
 
 /* TEXTO */
 
-.card h2 {
+.educationCard h2 {
   font: 600 40px/0.9'Inter', sans-serif;
   margin-bottom: 16px;
 }
 
-.card p {
+.educationCard p {
   font-size: 16px;
   color: inherit;
   max-width: 300px;
@@ -86,22 +86,22 @@
 /* RESPONSIVO */
 
 @media (max-width: 1090px) {
-  .grid {
+  .educationGrid {
     grid-template-columns: 1fr;
   }
 
-  .card {
+  .educationCard {
     min-height: 300px;
   }
-  .cardIcon {
+  .educationCardIcon {
     width: 50px;
     top: 20px;
     left: 20px;
   }
-  .card h2{
+  .educationCard h2{
     font-size: 28px;
   }
-  .card p{
+  .educationCard p{
     max-width: 100%;
   }
 }

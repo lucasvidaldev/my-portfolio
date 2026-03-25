@@ -1,8 +1,8 @@
 /* FOOTER */
-.conyactBg{
+.contactBG{
   background: var(--bg);
 }
-.contact {
+.contactSection {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -12,7 +12,7 @@
 
 /* HEADER */
 
-.title {
+.contactTitle {
   font-size: 120px;
   line-height: 1;
   margin-top: 20px;
@@ -20,7 +20,7 @@
 
 /* BOTTOM */
 
-.bottom {
+.contactBottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,47 +31,48 @@
 
 /* LINKS */
 
-.left,
-.right {
+.contactLeft,
+.contactRight {
   display: flex;
   gap: 24px;
 }
 
-.contact a {
+.contactSection a {
   font-size: 12px;
   text-decoration: none;
+  text-transform: uppercase;
   color: #fff;
   opacity: 0.7;
   transition: 0.3s;
 }
 
-.contact a:hover {
+.contactSection a:hover {
   opacity: 1;
 }
 
 /* RESPONSIVO */
 
 @media (max-width: 900px) {
-  .contact .title {
+  .contactTitle {
     font-size: 64px;
   }
 
-  .contact .header {
+  .contactHeader {
     margin-bottom: 80px;
   }
 }
 
 @media (max-width: 600px) {
-  .contact .title {
+  .contactTitle {
     font-size: 42px;
   }
 
-  .contact .bottom {
+  .contactBottom {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .contact .right {
+  .contactRight {
     flex-direction: column;
     gap: 12px;
   }

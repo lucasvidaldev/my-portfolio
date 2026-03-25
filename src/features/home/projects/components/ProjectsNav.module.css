@@ -1,5 +1,5 @@
 /* PROJECTS NAVIGATION */
-.nav {
+.projectNav {
   position: sticky;
   top: 65px;
   z-index: 20;
@@ -18,13 +18,13 @@
 }
 
 /* LINKS */
-.nav a {
+.projectNav a {
   position: relative;
   font-size: 14px;
   color: #a1a1a1;
   transition: 0.3s;
 }
-.nav a:hover {
+.projectNav a:hover {
   color: #ffffff;
 }
 
@@ -46,12 +46,12 @@
   background: #ffffff;
 }
 @media (max-width: 600px) {
-  .nav {
+  .projectNav {
     flex-direction: column;
     gap: 20px;
     top: 48px;
   }
-  .nav a {
+  .projectNav a {
     font-size: 12px;
   }
 }

@@ -1,31 +1,31 @@
-.aboutBg{
+.aboutSectionBg{
   background: var(--bg);
 }
-.about{
+.aboutSection{
   display: flex;
   flex-direction: column;
   gap: 60px;
 }
-.content {
+.aboutContent {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
 
 /* LEFT */
-.aboutDescription{
+.aboutSectionDescription{
   display: flex;
   flex-direction: column;
   gap:  30px;
 }
-.aboutMedia {
+.aboutSectionMedia {
   border-radius: 20px;
 }
 
 
 /* RIGHT */
 
-.aboutInfo {
+.aboutSectionInfo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -33,13 +33,13 @@
 
 /* INFO LIST */
 
-.infoList {
+.aboutInfoList {
   display: flex;
   flex-direction: column;
   gap: 60px;
 }
 
-.infoItem {
+.aboutInfoItem {
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
@@ -60,23 +60,23 @@
 
 /* TAGS */
 
-.tagsBlock {
+.aboutTagsBlock {
   margin-top: 40px;
 }
 
-.tagsTitle {
+.aboutTagsTitle {
   font-size: 12px;
   opacity: 0.6;
 }
 
-.tags {
+.aboutTags {
   margin-top: 16px;
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
 }
 
-.tagsList {
+.aboutTagsList {
   border: 1px solid #1db4b0;
   padding: 6px 12px;
   border-radius: 20px;
@@ -88,20 +88,20 @@
 /* ========================= */
 
 @media (max-width: 900px) {
-  .content {
+  .aboutContent {
     grid-template-columns: 1fr;
   }
-  .aboutInfo {
+  .aboutSectionInfo {
     gap: 32px;
   }
 }
 
 @media (max-width: 600px) {
-  .tags {
+  .aboutTags {
     gap: 8px;
   }
 
-  .tagsList {
+  .aboutTagsList {
     font-size: 12px;
     padding: 5px 10px;
   }
