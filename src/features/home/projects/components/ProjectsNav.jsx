@@ -29,7 +29,7 @@ export default function ProjectsNav({ projects }) {
   }, [projects, isClicking]);
 
   return (
-    <nav className={styles.projectNav}>
+    <nav className={`${styles.projectNav} reveal`}>
       <Tag text="principais trabalhos" />
 
       {projects?.map((project) => (

@@ -17,7 +17,7 @@ export default function Principles() {
           {/* GRID */}
           <div className={styles.principlesGrid}>
             {principlesData.map((item) => (
-              <div key={item.id} className={styles.principlesCard}>
+              <div key={item.id} className={`${styles.principlesCard} reveal`}>
                 <span className={styles.principlesNumber} aria-hidden="true" role='presentation'>{item.id}</span>
 
                 <h3>{item.principleTitle}</h3>

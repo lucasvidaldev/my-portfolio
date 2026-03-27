@@ -4,14 +4,14 @@ export default function ProjectsCard({ projects }) {
   return (
     <div className={styles.projectIntro}>
       {projects.map((card) => (
-        <section id={card.id} key={card.id} className={styles.project}>
+        <section id={card.id} className={`${styles.project} reveal`}>
           {/* LEFT - IMAGEM */}
           <div className={styles.projectImage}>
             <img src={card.img} alt={`Projeto ${card.title}`} />
           </div>
 
           {/* RIGHT - CONTEÚDO */}
-          <div className={styles.projectInfo}>
+          <div className={`${styles.projectInfo} delay-1`}>
             {/* EYEBROW */}
             <span className={styles.eyebrow}>{card.eyebrow}</span>
 

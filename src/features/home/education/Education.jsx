@@ -18,7 +18,7 @@ export default function Education() {
             {education.map((item) => (
               <div
                 key={item.id}
-                className={`${styles.educationCard} ${styles[item.variant]}`}
+                className={`${styles.educationCard} ${styles[item.variant]} reveal`}
               >
                 {/* 👇 ÍCONE */}
                 <img

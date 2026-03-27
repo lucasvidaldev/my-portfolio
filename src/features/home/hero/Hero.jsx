@@ -22,7 +22,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className={styles.hero} id='home'>
+    <section className={styles.heroBg} id='home'>
       <h1 className={styles.heroTitle}>
         <span className={styles.heroTrack} ref={trackRef}>
           {names.map((name, i) => (

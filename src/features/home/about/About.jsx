@@ -18,7 +18,7 @@ function InfoItem({ label, text }) {
 
 export default function About() {
   return (
-    <section className={styles.aboutSectionBg} id='sobre'>
+    <section className={`${styles.aboutSectionBg} reveal delay-2`} id='sobre'>
       <div className="container">
         <div className={styles.aboutSection}>
           <Tag text="Um pouco sobre mim" />
@@ -26,7 +26,7 @@ export default function About() {
           {/* CONTENT */}
           <div className={styles.aboutContent}>
             {/* LEFT */}
-            <div className={styles.aboutSectionDescription}>
+            <div className={`${styles.aboutSectionDescription} reveal`}>
               <img
                 src={SuaImagem}
                 alt="Foto pessoal"
@@ -38,7 +38,7 @@ export default function About() {
             </div>
 
             {/* RIGHT */}
-            <div className={styles.aboutSectionInfo}>
+            <div className={`${styles.aboutSectionInfo} reveal delay-1`}>
               {/* INFOS */}
               <dl className={styles.aboutInfoList}>
                 <InfoItem label="morando em" text="São Roque, SP — Brasil" />

@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <footer className={styles.contactBG} id='contato'>
       <div className="container">
-        <div className={styles.contactSection}>
+        <div className={`${styles.contactSection} reveal`}>
           {/* HEADER */}
           <div className={styles.contactHeader}>
             <Tag text="contato" />
