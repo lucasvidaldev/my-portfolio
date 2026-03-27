@@ -40,9 +40,10 @@
 
 /* 🔥 texto */
 .heroTrack span {
-  font-size: clamp(64px, 15vw, 340px);
-  font-weight: 500;
+  font-size: clamp(160px, 35vw, 340px);
+  font-weight: 600;
   color: white;
+  opacity: 0.3;
 
   mix-blend-mode: difference;
 
@@ -51,7 +52,6 @@
 .heroTrack span::after {
   content: "•";
   margin:140px;
-  opacity: 0.6;
 }
 
 /* 🔥 FADE REAL (igual site) */
@@ -106,6 +106,8 @@
   text-transform: capitalize;
   font-size: 48px; 
   color: #FFFFFF;
+  opacity: 0.7;
+
 }
 @media (max-width: 768px) {
   .heroTitle::after {
@@ -127,6 +129,7 @@
 
   pointer-events: none;
 }
+
   .heroTrack span::after {
     content: "•";
     margin:70px;
@@ -137,8 +140,5 @@
     align-items: flex-start;
     padding: 0px 24px;
     gap: 8px;
-  }
-  .heroFooterDev {
-    font-size: 30px;
   }
 }

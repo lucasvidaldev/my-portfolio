@@ -20,11 +20,11 @@ export default function Principles() {
               <div key={item.id} className={styles.principlesCard}>
                 <span className={styles.principlesNumber}>{item.id}</span>
 
-                <h3>{item.title}</h3>
+                <h3>{item.principleTitle}</h3>
 
-                <p>{item.text}</p>
+                <p>{item.principleText}</p>
 
-                <span className={styles.line}></span>
+                <span className={styles.detailsLine}></span>
               </div>
             ))}
           </div>

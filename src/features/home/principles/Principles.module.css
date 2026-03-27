@@ -65,7 +65,7 @@
 
 /* LINHA */
 
-.line {
+.detailsLine {
   width: 40px;
   height: 2px;
   background: #1db4b0;
@@ -85,13 +85,13 @@
     grid-template-columns: 1fr;
   }
 
-  .title {
+  .principleTitle {
     font-size: 40px;
   }
 }
 
 @media (max-width: 600px) {
-  .title {
+  .principleTitle{
     font-size: 32px;
   }
 

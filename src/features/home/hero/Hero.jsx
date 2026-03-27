@@ -22,23 +22,23 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className={`${styles.hero}`}>
-      <h1 className={`${styles.heroTitle}`}>
-        <span className={`${styles.heroTrack}`} ref={trackRef}>
+    <section className={styles.hero} id='home'>
+      <h1 className={styles.heroTitle}>
+        <span className={styles.heroTrack} ref={trackRef}>
           {names.map((name, i) => (
             <span key={i}>{name}</span>
           ))}
         </span>
       </h1>
 
-      <div className={`${styles.heroFooter}`}>
+      <div className={styles.heroFooter}>
         <div>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className={`${styles.heroFooterLink}`}>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.heroFooterLink}>
             Linkedin
           </a>
           <span>São Roque - SP, Brasil</span>
         </div>
-        <span className={`${styles.heroFooterDev}`}>FrontEnd Developer</span>
+        <span className={styles.heroFooterDev}>FrontEnd Developer</span>
       </div>
     </section>
   );

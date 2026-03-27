@@ -5,10 +5,10 @@ function App() {
   return <>
     <Header />
     <Hero />
+    <About />
     <Intro />
     <Projects />
     <Education />
-    <About />
     <Principles />
     <Contact />
   </>;

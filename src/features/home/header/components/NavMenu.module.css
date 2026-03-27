@@ -5,13 +5,6 @@
   list-style: none;
 }
 
-.navItem {
-  cursor: pointer;
-  letter-spacing: 2px; 
-  text-transform: uppercase; 
-  font: 500 12px/16px 'Inter', sans-serif;
-}
-
 .navLink {
   letter-spacing: 2px;
   text-transform: uppercase;

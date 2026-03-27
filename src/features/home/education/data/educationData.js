@@ -1,6 +1,6 @@
-import InfnetLogo from '../../../assets/icons/infnet.svg';
-import OrigamidLogo from '../../../assets/icons/origamid.svg';
-import HoracioLogo from '../../../assets/icons/hml.svg';
+import InfnetLogo from '../../../../assets/icons/infnet.svg';
+import OrigamidLogo from '../../../../assets/icons/origamid.svg';
+import HoracioLogo from '../../../../assets/icons/hml.svg';
 
 export const education = [
   {

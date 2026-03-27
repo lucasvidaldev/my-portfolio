@@ -18,7 +18,7 @@ function InfoItem({ label, text }) {
 
 export default function About() {
   return (
-    <section className={styles.aboutSectionBg}>
+    <section className={styles.aboutSectionBg} id='sobre'>
       <div className="container">
         <div className={styles.aboutSection}>
           <Tag text="Um pouco sobre mim" />

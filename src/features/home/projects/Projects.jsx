@@ -11,7 +11,7 @@ import { projects } from './components/data/projectsData.js';
 
 export default function Projects() {
   return (
-    <section className={style.projectBg}>
+    <section className={style.projectBg} id='projetos'>
       <div className="container">
         <div className={style.projectSection}>
           <div className={style.projectIntro}>

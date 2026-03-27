@@ -77,10 +77,16 @@
 }
 
 .aboutTagsList {
-  border: 1px solid #1db4b0;
+  border: 1px solid #2a2a2a;
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.aboutTagsList:hover {
+  border-color: #7c3aed;
+  background: rgba(124, 58, 237, 0.1);
 }
 
 /* ========================= */

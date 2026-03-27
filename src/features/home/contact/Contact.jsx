@@ -3,7 +3,7 @@ import Tag from '../../../components/tag/Tag.jsx';
 
 export default function Contact() {
   return (
-    <footer className={styles.contactBG}>
+    <footer className={styles.contactBG} id='contato'>
       <div className="container">
         <div className={styles.contactSection}>
           {/* HEADER */}

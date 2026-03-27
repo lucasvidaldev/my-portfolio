@@ -1,5 +1,5 @@
 import styles from './Education.module.css';
-import { education } from './educationData.js';
+import { education } from './data/educationData.js';
 
 import Title from '../../../components/title/Title.jsx';
 import Paragraph from '../../../components/paragraph/Paragraph.jsx';
