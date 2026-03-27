@@ -1,4 +1,4 @@
- import Img1 from '../../../../../assets/images/projects/img1.png';
+ import Img1 from '../../../../../assets/images/projects/img1.jpg';
 
 
  export const projects = [

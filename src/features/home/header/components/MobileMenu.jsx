@@ -9,7 +9,7 @@ export default function MobileMenu() {
     <nav>
       <button
         className={`${styles.navToggle} ${isOpen ? styles.navToggleActive : ''}`}
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => setIsOpen(!isOpen)} aria-label="Abrir menu de navegação"
       >
         <span></span>
         <span></span>

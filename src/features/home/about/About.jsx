@@ -5,7 +5,7 @@ import Title from '../../../components/title/Title.jsx';
 import Paragraph from '../../../components/paragraph/Paragraph.jsx';
 import Tag from '../../../components/tag/Tag.jsx';
 
-import SuaImagem from '../../../assets/images/background/foto-about.png';
+import SuaImagem from '../../../assets/images/background/foto-about.jpg';
 
 function InfoItem({ label, text }) {
   return (
