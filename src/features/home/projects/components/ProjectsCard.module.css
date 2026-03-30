@@ -77,7 +77,7 @@
   content: "•";
   position: absolute;
   left: 0;
-  color: #7c3aed; /* roxo estilo design system */
+  color: #FBBF24; /* roxo estilo design system */
 }
 
 /* TECH TAGS */
@@ -111,7 +111,7 @@
 }
 
 .projectButtons a:hover {
-  border-color: #7c3aed;
+  border-color: #FBBF24;
   background: rgba(124, 58, 237, 0.1);
 }
 @media (max-width: 1024px) {

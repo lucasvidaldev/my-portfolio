@@ -85,7 +85,7 @@
   transition: 0.3s;
 }
 .aboutTagsList:hover {
-  border-color: #7c3aed;
+  border-color: #FBBF24;
   background: rgba(124, 58, 237, 0.1);
 }
 
