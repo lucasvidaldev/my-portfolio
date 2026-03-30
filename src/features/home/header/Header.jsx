@@ -4,7 +4,7 @@ import MobileMenu from './components/MobileMenu.jsx';
 
 export default function Header() {
   return (
-    <header className={`${styles.header} reveal`}>
+    <header className={styles.header}>
       <span className={styles.headerLogo}>lucas gonçalves</span>
       <nav>
         <NavMenu />
