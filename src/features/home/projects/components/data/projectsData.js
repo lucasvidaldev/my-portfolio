@@ -26,10 +26,10 @@
        github: 'https://github.com/jobslucasvidal-design/nexusbjjacademy',
      },
      {
-       id: 'kira',
+       id: 'projeto-2',
        img: Img1,
        eyebrow: 'France - Global - 2024-2026',
-       title: 'Veepee - Sistema de Design',
+       title: 'Projeto em andamento',
        bullets: [
          'Reestruturei layout com foco em UX/UI',
          'Melhorei navegação e consistência visual',
@@ -43,14 +43,14 @@
          'UX/UI',
          'Responsivo',
        ],
-       deploy: 'https://mybikestar.netlify.app/',
-       github: 'https://github.com/eulucasvidal/bikestar',
+       deploy: '#',
+       github: '#',
      },
      {
-       id: 'tucuvi',
+       id: 'projeto-3',
        img: Img1,
        eyebrow: 'France - Global - 2024-2026',
-       title: 'Veepee - Sistema de Design',
+       title: 'Projeto em andamento',
        bullets: [
          'Reestruturei layout com foco em UX/UI',
          'Melhorei navegação e consistência visual',
@@ -64,14 +64,14 @@
          'UX/UI',
          'Responsivo',
        ],
-       deploy: 'https://mybikestar.netlify.app/',
-       github: 'https://github.com/eulucasvidal/bikestar',
+       deploy: '#',
+       github: '#',
      },
      {
-       id: 'hp',
+       id: 'projeto-4',
        img: Img1,
        eyebrow: 'France - Global - 2024-2026',
-       title: 'Veepee - Sistema de Design',
+       title: 'Projeto em andamento',
        bullets: [
          'Reestruturei layout com foco em UX/UI',
          'Melhorei navegação e consistência visual',
@@ -85,7 +85,7 @@
          'UX/UI',
          'Responsivo',
        ],
-       deploy: 'https://mybikestar.netlify.app/',
-       github: 'https://github.com/eulucasvidal/bikestar',
+       deploy: '#',
+       github: '#',
      }
 ];
