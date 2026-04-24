@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="PROJECT_URL">📱 Acessar Projeto</a>
+  <a href="https://portfolio-lucasvidal.netlify.app/">📱 Acessar Projeto</a>
 </p>
 
 ---
@@ -29,8 +29,8 @@
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center">
-  <img src="./.github/example.png" width="400px" />
-  <img src="./.github/example.png" width="400px" />
+  <img src="public/.github/imagens/preview-1.jpeg" width="400px" />
+  <img src="public/.github/imagens/preview-2.jpeg" width="400px" />
 </p>
 
 ---
@@ -68,4 +68,4 @@
 <h3>Clonando o projeto</h3>
 
 ```bash
-git clone SEU_LINK_DO_REPOSITORIO
+git clone https://github.com/jobslucasvidal-design/my-portfolio.git
